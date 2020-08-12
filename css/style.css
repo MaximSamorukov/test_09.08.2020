@@ -1,0 +1,21 @@
+
+.wrapper {
+  background-color: burlywood;
+  width: 100%;
+  height: 40px;
+}
+
+.logos_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.upper_menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.applience_menu_img {
+  display: flex;
+  justify-content: space-between;
+}
