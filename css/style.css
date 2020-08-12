@@ -1,6 +1,8 @@
-
 body {
-  
+  background-color: #eeebeb;
+}
+.header {
+  max-width: 1920px;
 }
 .wrapper {
   background-color: burlywood;
@@ -8,51 +10,105 @@ body {
   height: 48px;
   background-color: #00aa4b;
   margin-top: 444px;
+  margin-right: auto;
+  margin-left: auto;
+  
 }
 
 .navigation_form {  
-  width: 1940px;
+  width: 1920px;
   height: 74px;
   background-color: #e8e7e7;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .applience_menu_wrapper {
-  width: 1928px;
+  width: 1920px;
   height: 130px;
   box-shadow: 4px 6px 18px rgba(0, 0, 0, 0.11);
   background-color: #ffffff;
 }
 
-.banner_zone {
+/* .banner_zone {
   margin-left: auto;
   margin-right: auto;
-}
-.logos_wrapper {
-  display: flex;
-  justify-content: space-between;
-}
+} */
 
 .upper_menu {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding-right: 188px;
+  padding-left: 189px;
+}
+
+.applience_menu_wrapper {
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 9px;
+  height: 100px;
 }
 
 .applience_menu_img {
   display: flex;
   justify-content: space-between;
+  padding-left: 186px;
+  padding-right: 214px;
 }
 .applience_menu_text {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding-left: 184px;
+  padding-right: 189px;
 }
 
 .banner_zone_wrapper {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  /* padding-right: 189px; */
+  padding-left: 184px;
+  padding-top: 21px;
 }
 
-.applience_menu_text_wrapper {
+.goal_advices {
+  width: 303px;
+  height: 476px;
+  background-color: #fff;
+}
+
+.big-picture {
+  width: 902px;
+  height: 476px;
+  background-color: #232323;
+  margin-left: 21px;
+  margin-right: 21px;
+}
+
+.gift-box {
+  width: 300px;
+  height: 476px;
+  border-radius: 2px;
+  border: 2px solid #ffaf2d;
+  background-color: #fff;
+}
+
+.navigation_form_wrapper {
+  display:flex;
+  justify-content: right;
+  max-width: 1920px;
+}
+
+.logos {
+  margin-top: 20px;
+  padding-left: 186px;
+  padding-right: 188px;
+  background-color: #fff;
+
+}
+
+.logos_wrapper {
   display: flex;
   justify-content: space-between;
 }
-
