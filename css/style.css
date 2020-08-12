@@ -1,10 +1,32 @@
 
+body {
+  
+}
 .wrapper {
   background-color: burlywood;
-  width: 100%;
-  height: 40px;
+  width: 1920px;
+  height: 48px;
+  background-color: #00aa4b;
+  margin-top: 444px;
 }
 
+.navigation_form {  
+  width: 1940px;
+  height: 74px;
+  background-color: #e8e7e7;
+}
+
+.applience_menu_wrapper {
+  width: 1928px;
+  height: 130px;
+  box-shadow: 4px 6px 18px rgba(0, 0, 0, 0.11);
+  background-color: #ffffff;
+}
+
+.banner_zone {
+  margin-left: auto;
+  margin-right: auto;
+}
 .logos_wrapper {
   display: flex;
   justify-content: space-between;
@@ -19,3 +41,18 @@
   display: flex;
   justify-content: space-between;
 }
+.applience_menu_text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner_zone_wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.applience_menu_text_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
