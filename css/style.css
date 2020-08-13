@@ -40,7 +40,7 @@
 
 body {
   background-color: #eeebeb;
-  font-family: 'Myria Pro Regular', sans-serif;
+  font-family: 'Myriad Pro Regular', sans-serif;
 }
 .header { 
   max-width: 1920px;
@@ -52,6 +52,7 @@ body {
   height: 48px;
   background-color: #00aa4b;
   margin-top: 444px;
+  width: 1920px;
 }
 
 .upper_menu_wrapper {
@@ -93,6 +94,7 @@ body {
 
 .navigation_form {  
   height: 64px;
+
   
 }
 
@@ -101,118 +103,248 @@ body {
   justify-content: left;
 }
 
+
+
+.navigation_form_logo {
+  height: 64px;
+  margin-left: 195px;
+  display:flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.navigation_form_logo_img {
+  margin-top: 12px;
+}
+.navigation_form_logo_name {
+  margin-top: 5px;
+  font-family: 'Myriad Pro Regular', sans-serif;
+  font-size: 33px;
+  font-weight: 400;
+}
+
 .navigation_form_search {
   width: 883px;
   height: 33px;
   border: 1px solid #00aa4b;
   margin-top: 14px;
-  margin-left: 89px;
-}
-
-.navigation_form_logo {
-  margin-left: 195px;
-  margin-top: 12px;
-  margin-bottom: 12px;
-  display:flex;
-  justify-content: left;
-
-}
-
-.navigation_form_logo_name {
-  margin-bottom: 18px;
-}
-
-.navigation_form_logo_img {
-  margin-right: 8px;
+  margin-left: 62px;
 }
 
 .navigation_form_gos_supplier_icon {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: top;
   margin-left: 49px;
 }
 
 .navigation_form_gos_supplier_icon p {
-  width: 95px;
+  margin-top: 17px;
+  width: 100px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
 }
 
 .navigation_form_gos_supplier_icon img {
   margin-right: 5px;
+  margin-top: 12px;
 }
 
 .shopping_cart {
   margin-top: 22px;
   margin-left: 38px;
 }
-.applience_menu_wrapper {
-  width: 1920px;
-  height: 130px;
+
+.applience_menu {
+  height: 100px;
   box-shadow: 4px 6px 18px rgba(0, 0, 0, 0.11);
   background-color: #ffffff;
-}
-
-.applience_menu_wrapper {
   margin-right: auto;
   margin-left: auto;
+}
+.applience_menu_wrapper {
+
   padding-top: 9px;
   height: 100px;
-}
-
-.applience_menu_img {
   display: flex;
   justify-content: space-between;
-  padding-left: 186px;
-  padding-right: 214px;
-}
-.applience_menu_text {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-left: 184px;
-  padding-right: 189px;
 }
 
+.last {
+  margin-right: 205px;
+}
 
-/* 
+.first {
+  margin-left: 184px;
+}
+.applience_menu_box {
+  vertical-align: center;
+  text-align: center;
+  width: 57px;
+  height: 80px;
+}
+
+.applience_menu_box .img{
+  background-color:red;
+  border: 1px solid black;
+}
+.applience_menu_box .p {
+  color: #343434;
+  height: 10px;
+
+  margin-top: 0px;
+  padding-top: 0px;
+  border: 1px solid black;
+}
+
+.applience_menu_box .p p {
+  font-family: 'Myriad Pro Regular', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 10px;
+}
+
+/* Зона Баннера началась */
+
+.banner_zone {
+  width: 1550px;
+  height: 476px;
+
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 22px;
+}
+ 
 .banner_zone_wrapper {
   display: flex;
-  justify-content: space-between;
-  padding-left: 184px;
-  padding-top: 21px;
+  justify-content: left;
+
 }
 
 .goal_advices {
   width: 303px;
   height: 476px;
   background-color: #fff;
+  margin-right: 22px;
 }
 
 .big-picture {
   width: 902px;
   height: 476px;
   background-color: #232323;
-  margin-left: 21px;
-  margin-right: 21px;
+  margin-right: 22px;
 }
 
 .gift-box {
-  width: 300px;
-  height: 476px;
+  width: 296px;
+  height: 472px;
   border-radius: 2px;
   border: 2px solid #ffaf2d;
   background-color: #fff;
-} */
+} 
+/* Зона Баннера закончилась */
 
-/* .logos {
+/* Зона логотипов началась */
+ .logos {
   margin-top: 20px;
-  padding-left: 186px;
-  padding-right: 188px;
+  width: 1550px;
+  height: 101px;
+  margin-right: auto;
+  margin-left: auto;
   background-color: #fff;
-
 }
 
 .logos_wrapper {
   display: flex;
   justify-content: space-between;
-} */
+  padding-right: 84px;
+  padding-left: 56px;
+  padding-top: 35px;
+}
+
+
+.logo p {
+  line-height: 0px;
+}
+
+/* Зона логотипов закончилась */
+/* Начало зоны новостей */
+.news {
+  background-color: #fff;
+  width: 1550px;
+  height: 780px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 150px;
+}
+
+.news .h3 {
+  font-family: 'Myriad Pro Regular', sans-serif;
+  font-size: 40px;
+  font-weight: 100;
+  padding-left: 70px;
+  height: 30px;
+  line-height: 70px;
+  vertical-align: top;
+
+}
+
+.news_wrapper {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  /* border: 1px solid black; */
+  padding-left:50px;
+  padding-top: 54px;
+}
+
+.news_wrapper_new {
+  width: 820px;
+  height: 165px;
+  border: 1px solid black;
+
+}
+
+.new_1 {
+  background-color: yellow;
+  width: 489px;
+  height: 600px;
+  margin-top: 20px;
+  margin-left: 20px;
+  
+}
+
+.new_2 {
+  background-color: blue;
+  margin-left: 105px;
+  margin-top: 20px;
+  margin-bottom: 44px;
+  
+}
+
+.new_3 {
+  background-color: blueviolet;
+  margin-left: 105px;
+  margin-bottom: 44px;
+}
+
+.new_4 {
+  background-color: mediumseagreen;
+  margin-left: 105px;
+}
+
+.all_news {
+  margin-left: 73px;
+  margin-top: 43px;
+  width: 162px;
+  height: 32px;
+  border: 1px solid black;
+  border-radius: 16px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+}
+/* Конец зоны новостей */
