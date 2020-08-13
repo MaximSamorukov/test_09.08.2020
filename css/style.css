@@ -1,39 +1,39 @@
 @font-face {
   font-family: 'Myriad Pro Regular';
-  src: url('MyriadPro-Regular.eot');
-  src: url('MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
-  url('MyriadPro-Regular.woff') format('woff'),
-  url('MyriadPro-Regular.ttf') format('truetype');
+  src: url('/fonts/MyriadPro-Regular.eot');
+  src: url('/fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+  url('/fonts/MyriadPro-Regular.woff') format('woff'),
+  url('/fonts/MyriadPro-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Myriad Pro Light';
-  src: url('MyriadPro-Light.eot');
-  src: url('MyriadPro-Light.eot?#iefix') format('embedded-opentype'),
-  url('MyriadPro-Light.woff') format('woff'),
-  url('MyriadPro-Light.ttf') format('truetype');
+  src: url('/fonts/MyriadPro-Light.eot');
+  src: url('/fonts/MyriadPro-Light.eot?#iefix') format('embedded-opentype'),
+  url('/fonts/MyriadPro-Light.woff') format('woff'),
+  url('/fonts/MyriadPro-Light.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Myriad Pro Light SemiExtended';
-  src: url('MyriadPro-LightSemiExt.eot');
-  src: url('MyriadPro-LightSemiExt.eot?#iefix') format('embedded-opentype'),
-  url('MyriadPro-LightSemiExt.woff') format('woff'),
-  url('MyriadPro-LightSemiExt.ttf') format('truetype');
+  src: url('/fonts/MyriadPro-LightSemiExt.eot');
+  src: url('/fonts/MyriadPro-LightSemiExt.eot?#iefix') format('embedded-opentype'),
+  url('/fonts/MyriadPro-LightSemiExt.woff') format('woff'),
+  url('/fonts/MyriadPro-LightSemiExt.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Helvetica Neue Cyr Light';
-  src: url('HelveticaNeueCyr-Light.eot');
-  src: url('HelveticaNeueCyr-Light.eot?#iefix') format('embedded-opentype'),
-  url('HelveticaNeueCyr-Light.woff') format('woff'),
-  url('HelveticaNeueCyr-Light.ttf') format('truetype');
+  src: url('/fonts/HelveticaNeueCyr-Light.eot');
+  src: url('/fonts/HelveticaNeueCyr-Light.eot?#iefix') format('embedded-opentype'),
+  url('/fonts/HelveticaNeueCyr-Light.woff') format('woff'),
+  url('/fonts/HelveticaNeueCyr-Light.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -229,6 +229,13 @@ body {
   margin-right: 22px;
 }
 
+
+.goal_advices ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
 .big-picture {
   width: 902px;
   height: 476px;
@@ -374,7 +381,8 @@ body {
   width: 1390px;
   height: 743px;
   margin-top: 70px;
-  margin-left: 312px;
+  margin-left: auto;
+  margin-right: auto;
 
 }
 
@@ -433,7 +441,7 @@ body {
 }
 
 .complex_solutions_second_column_container {
-  width: 300px;
+  width: 308px;
   height: 516px;
   background-color: rgb(148, 233, 153);
 }
@@ -443,8 +451,8 @@ body {
   height: 49px;
   background-color: #232323;
   border-radius: 25px;
-  margin-left: 305px;
-  margin-top: 45px;
+  margin-left: 875px;
+  margin-top: 40px;
 }
 
 .plus {
@@ -476,7 +484,7 @@ body {
   height: 281px;
   width: 141px;
   margin-left: 262px;
-  margin-top: 91px;
+  margin-top: 87px;
   background-color:#232323;
 }
 
@@ -484,7 +492,7 @@ body {
   height: 305px;
   width: 165px;
   margin-left: 258px;
-  margin-top: 91px;
+  margin-top: 87px;
   background-color:#232323;
 }
 
@@ -492,7 +500,7 @@ body {
   height: 263px;
   width: 181px;
   margin-left: 237px;
-  margin-top: 91px;
+  margin-top: 87px;
   background-color:#232323;
 }
 
@@ -500,20 +508,49 @@ body {
   height: 270px;
   width: 184px;
   margin-left: 228px;
-  margin-top: 91px;
+  margin-top: 87px;
   background-color:#232323;
+  display: flex;
+  justify-content: left;
+
+  flex-direction: column;
 }
 
 .footer_title {
   text-align: left;
   font-size: 24px;
   color: #777777;
-  text-indent: 5px;
+
 }
 
 .footer_list {
-  color: #cbcbcb
+  color: #cbcbcb;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  margin-top: 28px;
 }
+
+.footer_list ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.footer_wrapper_contacts_title {
+/*  */
+}
+.footer_wrapper_contacts_list {
+  height: 280px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.contacts_data p{
+  line-height: 5px;
+}
+
 /* Конец подвала */
 
 /* Under footer начало */
