@@ -39,7 +39,7 @@
 }
 
 body {
-  background-color: #eeebeb;
+  background-color:#f5f2f2;
   font-family: 'Myriad Pro Regular', sans-serif;
 }
 .header { 
@@ -271,7 +271,6 @@ body {
 /* Зона логотипов закончилась */
 /* Начало зоны новостей */
 .news {
-  background-color: #fff;
   width: 1550px;
   height: 780px;
   margin-right: auto;
@@ -300,14 +299,14 @@ body {
 }
 
 .news_wrapper_new {
-  width: 820px;
-  height: 165px;
-  border: 1px solid black;
+  width: 822px;
+  height: 167px;
+
 
 }
 
 .new_1 {
-  background-color: yellow;
+  background-color: white;
   width: 489px;
   height: 600px;
   margin-top: 20px;
@@ -316,7 +315,7 @@ body {
 }
 
 .new_2 {
-  background-color: blue;
+  background-color: white;
   margin-left: 105px;
   margin-top: 20px;
   margin-bottom: 44px;
@@ -324,13 +323,13 @@ body {
 }
 
 .new_3 {
-  background-color: blueviolet;
+  background-color: white;
   margin-left: 105px;
   margin-bottom: 44px;
 }
 
 .new_4 {
-  background-color: mediumseagreen;
+  background-color:  white;
   margin-left: 105px;
 }
 
@@ -374,7 +373,6 @@ body {
 .recomendation_zone {
   width: 1390px;
   height: 743px;
-  background-color: red;
   margin-top: 70px;
   margin-left: 312px;
 
@@ -389,7 +387,7 @@ body {
 .recomendation_zone_1 {
   width: 594px;
   height: 745px;
-  background-color: green;
+  background-color:#ffffff;
 }
 
 .recomendation_zone_2_3_container {
@@ -403,13 +401,13 @@ body {
 .recomendation_zone_2 {
   width: 784px;
   height: 419px;
-  background-color: green;
+  background-color:#ffffff;
 }
 
 .recomendation_zone_3 {
   width: 784px;
   height: 316px;
-  background-color: green;
+  background-color: #ffffff;
 }
 /* Конец зоны рекомендаций */
 
@@ -419,7 +417,7 @@ body {
   height: 516px;
   margin-right: auto;
   margin-left: auto;
-  background-color: rgb(83, 187, 83);
+
   margin-top: 171px;
 }
 
@@ -431,13 +429,13 @@ body {
 .complex_solutions_first_column_container {
   width: 831px;
   height: 516px;
-  background-color: rgb(77, 51, 182);
+  background-color: rgb(207, 199, 239);
 }
 
 .complex_solutions_second_column_container {
   width: 300px;
   height: 516px;
-  background-color: rgb(16, 209, 29);
+  background-color: rgb(148, 233, 153);
 }
 
 .circle {
