@@ -101,6 +101,7 @@ body {
 .navigation_form_wrapper {
   display:flex;
   justify-content: left;
+
 }
 
 
@@ -135,7 +136,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: top;
-  margin-left: 49px;
+  margin-left: 62px;
 }
 
 .navigation_form_gos_supplier_icon p {
@@ -164,45 +165,50 @@ body {
   margin-left: auto;
 }
 .applience_menu_wrapper {
-
   padding-top: 9px;
   height: 100px;
   display: flex;
   justify-content: space-between;
+
 }
 
 .last {
-  margin-right: 205px;
+  margin-right: 214px;
 }
 
 .first {
   margin-left: 184px;
 }
 .applience_menu_box {
-  vertical-align: center;
   text-align: center;
   width: 57px;
   height: 80px;
+  
 }
 
 .applience_menu_box .img{
   /* border: 1px solid black; */
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+
 }
 .applience_menu_box .p {
   color: #343434;
   height: 10px;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
 
   margin-top: 0px;
   padding-top: 0px;
   /* border: 1px solid black; */
-}
-
-.applience_menu_box .p p {
   font-family: 'Myriad Pro Regular', sans-serif;
   font-size: 14px;
   font-weight: 400;
   text-align: center;
   line-height: 10px;
+  white-space: nowrap;
 }
 
 /* Зона Баннера началась */
