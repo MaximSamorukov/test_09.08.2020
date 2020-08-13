@@ -348,3 +348,68 @@ body {
   line-height: 32px;
 }
 /* Конец зоны новостей */
+
+/* Начало зоны рекомендаций */
+.recomendations_title {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 165px;
+}
+
+.recomendations_title .h2 {
+  font-family: 'Myriad Pro Regular', sans-serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+.rocomendation_p {
+  width: 670px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: 'Myriad Pro Regular', sans-serif;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 12px;
+}
+
+.recomendation_zone {
+  width: 1390px;
+  height: 743px;
+  background-color: red;
+  margin-top: 70px;
+  margin-left: 312px;
+
+}
+
+.recomendation_zone_wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.recomendation_zone_1 {
+  width: 594px;
+  height: 745px;
+  background-color: green;
+}
+
+.recomendation_zone_2_3_container {
+  width: 784px;
+  height: 745px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.recomendation_zone_2 {
+  width: 784px;
+  height: 419px;
+  background-color: green;
+}
+
+.recomendation_zone_3 {
+  width: 784px;
+  height: 316px;
+  background-color: green;
+}
+/* Конец зоны рекомендаций */
