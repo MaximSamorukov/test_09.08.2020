@@ -186,8 +186,7 @@ body {
 }
 
 .applience_menu_box .img{
-  background-color:red;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 .applience_menu_box .p {
   color: #343434;
@@ -195,7 +194,7 @@ body {
 
   margin-top: 0px;
   padding-top: 0px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 .applience_menu_box .p p {
@@ -413,3 +412,154 @@ body {
   background-color: green;
 }
 /* Конец зоны рекомендаций */
+
+/* Начало комплексных решений */
+.complex_solutions {
+  width: 1390px;
+  height: 516px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: rgb(83, 187, 83);
+  margin-top: 171px;
+}
+
+.complex_solutions_wrapper {
+  display:flex;
+  justify-content: space-between;
+}
+
+.complex_solutions_first_column_container {
+  width: 831px;
+  height: 516px;
+  background-color: rgb(77, 51, 182);
+}
+
+.complex_solutions_second_column_container {
+  width: 300px;
+  height: 516px;
+  background-color: rgb(16, 209, 29);
+}
+
+.circle {
+  width: 49px;
+  height: 49px;
+  background-color: #232323;
+  border-radius: 25px;
+  margin-left: 305px;
+  margin-top: 45px;
+}
+
+.plus {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 25px;
+  color: #fff;
+}
+
+/* Конец комплексных решений */
+
+/* Начало подвала */
+.footer {
+  width: 1920px;
+  height: 482px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:#232323;
+  margin-top: 172px;
+}
+
+.footer_wrapper {
+  display: flex;
+  justify-content: left;
+  color:#fff;
+}
+
+.footer_wrapper_information {
+  height: 281px;
+  width: 141px;
+  margin-left: 262px;
+  margin-top: 91px;
+  background-color:#232323;
+}
+
+.footer_wrapper_equipment {
+  height: 305px;
+  width: 165px;
+  margin-left: 258px;
+  margin-top: 91px;
+  background-color:#232323;
+}
+
+.footer_wrapper_preposition {
+  height: 263px;
+  width: 181px;
+  margin-left: 237px;
+  margin-top: 91px;
+  background-color:#232323;
+}
+
+.footer_wrapper_contacts {
+  height: 270px;
+  width: 184px;
+  margin-left: 228px;
+  margin-top: 91px;
+  background-color:#232323;
+}
+
+.footer_title {
+  text-align: left;
+  font-size: 24px;
+  color: #777777;
+  text-indent: 5px;
+}
+
+.footer_list {
+  color: #cbcbcb
+}
+/* Конец подвала */
+
+/* Under footer начало */
+.under_footer {
+  width: 1920px;
+  height: 110px;
+  background-color: #191919;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: left;
+}
+
+.under_footer_logo {
+  margin-left: 265px;
+  margin-top: 42px;
+}
+
+.under_footer_name {
+  width: 269px;
+  height: 38px;
+  margin-left: 17px;
+  margin-top: 46px;
+  color:#777777;
+}
+.under_footer_agency {
+  color:#777777;
+  margin-top: 40px;
+  margin-left: 830px;
+}
+
+.under_footer_name_name {
+  font-family: 'Myriad Pro Regular', sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 2.7px;
+  font-weight: 400;
+}
+.under_footer_name_slogan {
+  font-family: 'Myriad Pro Regular', sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: 0px;
+  font-weight: 400;
+}
+
+/* Under footer конец */
