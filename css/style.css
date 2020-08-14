@@ -638,16 +638,76 @@ body {
 /* adptiv 767 */
 
 @media (max-width: 767px) {
-  .header, .goal_advices, .logos, .footer, .under_footer, .news {
+  .header, .goal_advices, .logos, .footer, .under_footer, .news, .adaptive_header {
     display: none;
   }
+  .adaptive_header {
+    display: block;
+    height: 140px;
+    width: 751px;
+    background-color: #f1f1f1;
+  
+  }
 
+  .adaptive_header_first {
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      border-bottom: 1px solid #e2e2e2;
+  }
+
+  .burger {
+    margin-left: 30px;
+  }
+  .header_first_logo {
+    margin-left: 30px;
+  }
+
+  .header_first_slogan {
+    width: 189px;
+    height: 46px;
+    margin-left: 10px;
+    background-color: #fff;
+  }
+
+  .header_first_search {
+    margin-left: 107px;
+  }
+
+  .header_first_phone {
+    margin-left: 41px;
+  }
+
+  .header_first_cart {
+    margin-left: 33px;
+  }
+
+  .adaptive_header_second {
+    display: flex;
+    justify-content: left;
+  }
+
+  .adaptive_header_second :first-child {
+    margin-left: 30px;
+    margin-top: 27px;
+    font-size: 30px;
+  }
+
+  .adaptive_header_second :last-child {
+    margin-left: 476px;
+    margin-top: 32px;
+    font-size: 30px;
+  }
+
+
+  .header_banner_zone {
+    width: 751px;
+  }
   .banner_zone {
     width: 751px;
     height: 1000px;
-    margin-right: auto;
     margin-left: auto;
-    margin-top: 22px;
+    
   }
    
   .banner_zone_wrapper {
@@ -801,12 +861,11 @@ body {
 
   .adaptive_footer {
     display:block;
-    max-width: 752px;
+    /* max-width: 752px; */
     height: 564px;
     margin-right: auto;
     margin-left: auto;
     margin-top: 0px;
-    
     padding-left: 51px;
     background-color: #282828;
   }
@@ -818,6 +877,7 @@ body {
     flex-direction: column;
     color:white;
     padding-top: 51px;
+    
   }
 
   .ad_f_li {
@@ -844,28 +904,22 @@ body {
   .adaptive_under_footer {
     display:block;
     width: 767px;
-    height: 244px;
-    border: 1px solid green;
+    height: 280px;
     background-color: #1f1f1f;
-    margin-left: auto;
-    margin-right: auto;
-
-
   }
 
-  .adaptive_under_footer_wrapper {
-
+  /* .adaptive_under_footer_wrapper {
     border: 1px solid orange;
-    margin: 0px;
-  }
+
+  } */
+
   .first {
     margin: 0;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     padding: 0;
-  border: 1px solid tomato;
-  
-  }
+   }
+
   .adaptive_under_footer_logo {
     display:block;
     width: 767px;
@@ -878,21 +932,30 @@ body {
     display: flex;
     justify-content: left;
     flex-direction: column;
-    margin-top: 54px;
-    width: 300px;
+    margin-top: 45px;
+    width: 100px;
     margin-right: 500px;
-    
-    
-    border: 1px solid yellow;
   }
   .adaptive_under_footer_slogan :first-child {
     color: white;
-    border: 1px solid orchid;
+    font-size: 50px;
   }
 
   .adaptive_under_footer_slogan :last-child {
+    font-family: 'Myriad Pro Light SemiExtended';
+    color: #6a6a6a;
+    font-weight: 100;
+    white-space: nowrap;
+    font-size: 30px;
+    margin-top: 15px;
+    line-height: 0px;
+  }
+
+  .second {
     color: white;
-    border: 1px solid olive;
+    margin-top: 40px;
+    margin-left: 50px;
+    font-size: 48px;
   }
 
 }
