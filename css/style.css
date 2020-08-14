@@ -630,7 +630,7 @@ body {
   font-weight: 400;
 }
 
-.adaptive_footer, .adaptive_under_footer {
+.adaptive_footer, .adaptive_under_footer .adaptive_header {
   display: none;
 }
 /* Under footer конец */
@@ -638,7 +638,7 @@ body {
 /* adptiv 767 */
 
 @media (max-width: 767px) {
-  .header, .goal_advices, .logos, .footer, .under_footer, .news, .adaptive_header {
+  .header, .goal_advices, .logos, .footer, .under_footer, .news {
     display: none;
   }
   .adaptive_header {
