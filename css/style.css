@@ -161,8 +161,8 @@ body {
   height: 100px;
   box-shadow: 4px 6px 18px rgba(0, 0, 0, 0.11);
   background-color: #ffffff;
-  margin-right: auto;
-  margin-left: auto;
+  /* margin-right: auto;
+  margin-left: auto; */
 }
 .applience_menu_wrapper {
   padding-top: 9px;
@@ -216,7 +216,6 @@ body {
 .banner_zone {
   width: 1550px;
   height: 476px;
-
   margin-right: auto;
   margin-left: auto;
   margin-top: 22px;
@@ -233,13 +232,37 @@ body {
   height: 476px;
   background-color: #fff;
   margin-right: 22px;
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+}
+.goal_advices .h3 {
+  font-size: 24px;
+  padding-top: 28px;
+  margin-bottom: 18px;
+  padding-left: 28px;
+  color: #ffaf2d;
+  
+}
+.li_wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 400px;
+
+}
+.goal_advices .li {
+  padding-left: 28px;
+  padding-top: 10px;
+  height: 44px;
+  border-bottom: 1px solid #f5f2f2;
 }
 
-
-.goal_advices ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+.li_last {
+  padding-left: 28px;
+  padding-top: 10px;
+  height: 44px;
+  border-bottom: 0px solid white;
 }
 
 .big-picture {
@@ -266,6 +289,10 @@ body {
   margin-right: auto;
   margin-left: auto;
   background-color: #fff;
+}
+
+.logos_adaptive {
+  display: none;
 }
 
 .logos_wrapper {
@@ -603,4 +630,269 @@ body {
   font-weight: 400;
 }
 
+.adaptive_footer, .adaptive_under_footer {
+  display: none;
+}
 /* Under footer конец */
+
+/* adptiv 767 */
+
+@media (max-width: 767px) {
+  .header, .goal_advices, .logos, .footer, .under_footer, .news {
+    display: none;
+  }
+
+  .banner_zone {
+    width: 751px;
+    height: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 22px;
+  }
+   
+  .banner_zone_wrapper {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+  }
+
+  .gift-box {
+    height: 476px;
+    width: 690px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+
+  .logos_adaptive {
+    display: block;
+    margin-top: 20px;
+    width: 690px;
+    height: 515px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #fff;
+  }
+  
+  .logos_wrapper_adaptive {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* padding-right: 84px;
+    padding-left: 56px;
+    padding-top: 35px; */
+  }
+  .logo_adaptive {
+    position: relative;
+    width: 342px;
+    height: 169px;
+  }
+  
+  .logo_adaptive p {
+    line-height: 0px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .logo_adaptive img {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .recomendations_title {
+    height: 431px;
+    padding-top: 151px;
+    margin-top: 30px;
+  }
+
+  .recomendations_title .h2 {
+    font-size: 50px;
+  }
+
+  .recomendations_title .rocomendation_p {
+    font-size: 30px;
+  }
+
+  .recomendation_zone {
+    margin-top: 30px;
+    width: 694px;
+    height: 1480px;
+  
+  }
+  .recomendation_zone_2_3_container{
+    height: 966px;
+    width: 694px;
+  }
+  .recomendation_zone_wrapper, .recomendation_zone_2_3_container {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+  }
+
+  .recomendation_zone_1, .recomendation_zone_2, .recomendation_zone_3 {
+    width: 694px;
+    height: 483px;
+    margin-bottom: 15px;
+  }
+
+  .complex_solutions {
+    width: 750px;
+    height: 1610px;
+
+    margin-top: 0px;
+  }
+
+  .complex_solutions_wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+  }
+
+  .complex_solutions_second_column_container {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    margin-left: 85px;
+    height: 662px;
+    margin-bottom: 143px;
+  }
+ .complex_solutions_logo {
+    width: 249px;
+    height: 249px;
+    margin-bottom: 63px;
+ }
+
+ .complex_solutions_text {
+  width: 408px;
+  height: 350px;
+ }
+ .complex_solutions_first_column_container {
+  width: 658px;
+  height: 805px;
+  margin-right: auto;
+  margin-left: auto;
+ }
+
+ .circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin:60px 0 0 50px;
+    text-align: center;
+    vertical-align: bottom;
+    margin-bottom: 155px;
+
+ }
+
+ .plus {
+  display: block;
+  line-height: 0;
+  height: 100px;
+  width: 100px;
+  padding-top: 48px;
+  }
+
+  .adaptive_footer {
+    display:block;
+    max-width: 752px;
+    height: 564px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0px;
+    
+    padding-left: 51px;
+    background-color: #282828;
+  }
+
+  .adaptive_footer_wrapper {
+    display: flex;
+    height: 462px;
+    justify-content: space-between;
+    flex-direction: column;
+    color:white;
+    padding-top: 51px;
+  }
+
+  .ad_f_li {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    width: 633px;
+    background-color: #282828;
+    border-bottom: 1px solid #f3f2f2;
+  }
+
+  .ad_f_li div {
+    font-family: "Myriad Pro Light SemiExtended";
+    font-size: 30px;
+    font-weight: 200;
+    padding-top: 25px;
+    
+  }
+
+  .ad_f_li_last {
+    border-bottom: 0px solid #f3f2f2;
+  }
+
+  .adaptive_under_footer {
+    display:block;
+    width: 767px;
+    height: 244px;
+    border: 1px solid green;
+    background-color: #1f1f1f;
+    margin-left: auto;
+    margin-right: auto;
+
+
+  }
+
+  .adaptive_under_footer_wrapper {
+
+    border: 1px solid orange;
+    margin: 0px;
+  }
+  .first {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  border: 1px solid tomato;
+  
+  }
+  .adaptive_under_footer_logo {
+    display:block;
+    width: 767px;
+    margin-top: 42px;
+    margin-left: 49px;
+
+  }
+  .adaptive_under_footer_slogan {
+    
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    margin-top: 54px;
+    width: 300px;
+    margin-right: 500px;
+    
+    
+    border: 1px solid yellow;
+  }
+  .adaptive_under_footer_slogan :first-child {
+    color: white;
+    border: 1px solid orchid;
+  }
+
+  .adaptive_under_footer_slogan :last-child {
+    color: white;
+    border: 1px solid olive;
+  }
+
+}
